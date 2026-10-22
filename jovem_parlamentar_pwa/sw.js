@@ -1,4 +1,4 @@
-const CACHE = 'jovem-parlamentar-v17';
+const CACHE = 'jovem-parlamentar-v18';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-192.png', './icon-maskable-512.png', './apple-touch-icon.png', './favicon-32.png', './fontes/bebas-neue.woff2', './fontes/montserrat.woff2'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)).then(() => self.skipWaiting()));
