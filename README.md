@@ -79,7 +79,7 @@ Service Workers → Unregister**.
 ## Publicar no GitHub Pages
 
 1. Rode os testes (veja abaixo).
-2. Aumente a versão do cache em `sw.js` (`v30` → `v31`).
+2. Aumente a versão do cache em `sw.js` (`v31` → `v32`).
 3. Faça o commit em `main` e envie com `git push`.
 4. Em **Settings → Pages**, a origem deve ser a branch `main` e a pasta onde
    está `index.html`.
@@ -89,7 +89,7 @@ Service Workers → Unregister**.
 ### Versão do cache (obrigatório a cada publicação)
 
 ```js
-const CACHE = 'jovem-parlamentar-v30';
+const CACHE = 'jovem-parlamentar-v31';
 ```
 
 Sempre que qualquer arquivo publicado mudar, troque o número. Sem isso,

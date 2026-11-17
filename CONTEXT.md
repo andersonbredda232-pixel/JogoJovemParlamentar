@@ -35,7 +35,7 @@ Responsável: Anderson Bredda, Câmara Municipal de Campinas.
   Em 17/11/2026 o GitHub ainda tinha a versão de 22/10 (cache v1), com um
   `index.html` na raiz e outro na pasta `jovem_parlamentar_pwa/`.
 - Hospedagem: GitHub Pages.
-- Versão atual do cache do service worker: `jovem-parlamentar-v30`.
+- Versão atual do cache do service worker: `jovem-parlamentar-v31`.
 
 ## 4. Decisões consolidadas
 
@@ -145,11 +145,12 @@ Responsável: Anderson Bredda, Câmara Municipal de Campinas.
   nela; imprevisto com um quadro só; Como jogar com 4 cartões curtos e
   ilustrados; consulta esconde uma errada; “Jogo” no lugar de “Jogo
   educativo”; link de instalação só no celular; ícones Phosphor.
+- Bandeira de Campinas na mesa do gabinete redesenhada (texto inteiro,
+  “SÃO PAULO”, escudo e fênix) e brasão entalhado da tribuna refeito a
+  partir do brasão oficial, com “DE CAMPINAS” corrigido (v31, ADR-017).
 
 ## 6. Pendências
 
-- **Bandeira de Campinas e fênix do brasão** na cena da tela inicial: estão
-  malfeitas; refazer a partir de uma imagem oficial de referência.
 
 - **80 perguntas:** definir se a meta conta só perguntas de etapa (hoje 76)
   ou também as de imprevisto (hoje 96).

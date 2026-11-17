@@ -86,7 +86,12 @@ Negativas:
 - **Phosphor por CDN:** descartada; o jogo precisa funcionar sem internet.
 - **Trocar só os ícones das etapas:** descartada; misturaria dois estilos.
 
-## Pendências registradas
+## Símbolos de Campinas (v31)
 
-- Bandeira de Campinas e fênix do brasão (na cena inicial): redesenhar a
-  partir de uma referência oficial.
+- **Bandeira da mesa do gabinete** (`GAB_FRENTE`): “MUNICÍPIO DE CAMPINAS”
+  inteiro em arco, “SÃO PAULO” embaixo, escudo azul com a fênix amarela,
+  como na bandeira oficial.
+- **Brasão entalhado da tribuna** (`CENA_INICIO`): o brasão da imagem foi
+  trocado por um redesenho do brasão oficial (coroa mural, fênix sobre as
+  chamas, cana e café, lema “LABORE VIRTUTE CIVITAS FLORET”), em entalhe
+  dourado; o “DE” de “DE CAMPINAS”, que estava ilegível, foi corrigido.

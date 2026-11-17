@@ -2,10 +2,10 @@
    SERVICE WORKER — faz o jogo abrir sem internet (ADR-002)
    ----------------------------------------------------------------------
    IMPORTANTE: a cada publicação, aumente o número da versão abaixo
-   (v29 → v30...). Sem isso, quem já abriu o jogo continua com a versão
+   (v30 → v31...). Sem isso, quem já abriu o jogo continua com a versão
    antiga guardada no aparelho.
    ====================================================================== */
-const CACHE = 'jovem-parlamentar-v30';
+const CACHE = 'jovem-parlamentar-v31';
 
 // Arquivos guardados na instalação. Arquivo novo que precise funcionar
 // sem internet entra nesta lista.
