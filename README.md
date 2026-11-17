@@ -79,7 +79,7 @@ Service Workers → Unregister**.
 ## Publicar no GitHub Pages
 
 1. Rode os testes (veja abaixo).
-2. Aumente a versão do cache em `sw.js` (`v31` → `v32`).
+2. Aumente a versão do cache em `sw.js` (`v32` → `v33`).
 3. Faça o commit em `main` e envie com `git push`.
 4. Em **Settings → Pages**, a origem deve ser a branch `main` e a pasta onde
    está `index.html`.
@@ -89,7 +89,7 @@ Service Workers → Unregister**.
 ### Versão do cache (obrigatório a cada publicação)
 
 ```js
-const CACHE = 'jovem-parlamentar-v31';
+const CACHE = 'jovem-parlamentar-v32';
 ```
 
 Sempre que qualquer arquivo publicado mudar, troque o número. Sem isso,
@@ -103,7 +103,7 @@ acima dela, um comentário com os campos.
 
 | Lista | O que guarda |
 |---|---|
-| `ETAPAS` | as 7 etapas da tramitação, com nome, ícone, o que acontece nela (`local`) e fala do Legis |
+| `ETAPAS` | as 7 etapas da tramitação, com nome, ícone, o que acontece nela (`local`), resumo ao terminar (`feito`) e fala do Legis |
 | `CASAS` | as 21 casas do tabuleiro (pergunta, imprevisto ou carta) |
 | `Q` | o banco de perguntas, uma lista por etapa |
 | `EVENTOS` | os imprevistos sorteados e suas perguntas |
@@ -187,7 +187,8 @@ python3 testes/telas.py      # capturas de tela, botões de 44 px e rolagem hori
 
 Detalhes no [ADR-005](doc/ADR-005-pontuacao-por-estrelas.md), no
 [ADR-016](doc/ADR-016-ajustes-de-jogabilidade.md) e no
-[ADR-017](doc/ADR-017-textos-consulta-e-icones-phosphor.md).
+[ADR-017](doc/ADR-017-textos-consulta-e-icones-phosphor.md) e no
+[ADR-018](doc/ADR-018-encerramento-de-etapa-e-faixa-limpa.md).
 
 ## Privacidade e LGPD
 

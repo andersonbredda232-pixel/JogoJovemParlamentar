@@ -24,11 +24,12 @@ consequências e as alternativas descartadas.
 | [ADR-015](ADR-015-codigo-enxuto-e-verificacao.md) | Código enxuto, comentado por blocos e verificado por comparação | Aceito |
 | [ADR-016](ADR-016-ajustes-de-jogabilidade.md) | Ajustes de jogabilidade para o público leigo | Substituído em parte pelo ADR-017 |
 | [ADR-017](ADR-017-textos-consulta-e-icones-phosphor.md) | Textos mais simples, consulta menor e ícones Phosphor | Aceito |
+| [ADR-018](ADR-018-encerramento-de-etapa-e-faixa-limpa.md) | Encerramento de etapa, faixa sem contadores e nova tela inicial | Aceito |
 
 ## Como criar um novo ADR
 
 1. Copie [`ADR-000-modelo.md`](ADR-000-modelo.md) com o próximo número livre e
-   um nome curto, sem acentos: `ADR-018-salvar-partida.md`.
+   um nome curto, sem acentos: `ADR-019-salvar-partida.md`.
 2. Preencha com status **Proposto**.
 3. Depois da aprovação, mude para **Aceito** e acrescente a linha nesta
    tabela.
